@@ -1,0 +1,312 @@
+.header img{
+    height: 75px;
+    width: 75px;
+}
+.container{
+    padding: 25px 90px;
+    position: relative;
+}
+.header-btn{
+    background-image: url('./assets/images/connect_wallet.png');
+}
+.btn-div{
+    position: absolute;
+    right: 90px;
+    top: 39px;
+}
+.btn-div img{
+    width: 140px;
+}
+.main-div{
+
+}
+body{
+    
+    background: url(./assets/images/huge_bg.png);
+    background-repeat: no-repeat;
+    background-position: -1px -100px;
+    background-size: cover;
+
+}
+.horse-img{
+    height: 430px;
+    position: absolute;
+}
+.time-to-go-war-txt-div{
+}
+.time-to-go-war-txt-div p{
+    font-family: 'Game of Thrones';
+    font-size: 51px;
+}
+.horse-txt-div{
+    position: relative;
+    height: 500px;
+}
+.main-heading-img{
+    width: 660px;
+    height: 44px;
+    padding-top: 86px;
+}
+.horse-txt-abs-div{
+    position: absolute;
+}
+.left-p{
+    font-family: 'Game of Thrones';
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
+}
+.para-div{
+    width: 55%;
+    margin: 0 auto;
+    height: 500px;
+}
+.lefty{
+    float: left;
+    width: 45%;
+    margin-right: 10%;
+    position: relative;
+    padding-bottom: 55px;
+}
+.righty{
+    width: 45%;
+    float: left;  
+      position: relative;
+    padding-bottom: 55px;
+}
+
+.lefty img {
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -30px
+}
+.righty img{
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -15px
+}
+.footer{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.footer ul{
+    padding-left: 0;
+    display: inline-flex;
+}
+.footer ul li{
+    list-style-type: none;
+}
+
+.footer ul li img{
+    width: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.pp-txt{
+    font-family: 'Game of Thrones';
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.pp-txt span{
+    margin-left: 6px;
+}
+.oneBnbTxt{
+    font-family: 'Game of Thrones';
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 13px;
+    word-spacing: 3px;
+    margin-bottom: 40px;
+}
+.noGOTFont{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 17px;
+}
+.priceTxt{
+    font-family: 'Game of Thrones';
+    font-size: 13px;
+}
+.left-32{
+    margin-left: 32px;
+}
+.ryt-abs-wallet-txt{
+    text-align: right;
+    position: absolute;
+    top: -15px;
+    right: 25px;
+}
+.bottom-txt{
+    border-bottom: 4px solid;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+.left-3{
+    margin-left: 3px;
+}
+.ryt0{
+    right: 0 !important;
+}
+.ryt-div-ryt-txt{
+    margin-left: 4px;
+    margin-top: 25px;
+    border-bottom: 2px solid;
+    padding-bottom: 12px;
+}
+.deposit-btn-div{
+    position: relative;
+    text-align: center;
+}
+.deposit-btn-div > p{
+    font-family: 'Game of Thrones';
+    font-size: 13px;
+    position: absolute;
+    z-index: 11;
+    color: white;
+    left: 50%;
+    letter-spacing: 2px;
+    margin-top: 63px;
+    transform: translateX(-50%);
+}
+
+.deposit-btn-div svg{
+    width: 250px;
+    margin-top: 50px;
+}
+.discord-img{
+    height: 27px;
+    width: 40px !important;
+    border-radius: 7px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .horse-img {
+        height: 227px;
+        position: absolute;
+        left: -23%;
+    }
+    .main-heading-img {
+        width: 217px;
+        height: 20px;
+        padding-top: 0;
+    }
+    .horse-txt-div {
+        position: relative;
+        height: 300px;
+    }
+    .lefty {
+        float: unset; 
+        width: unset;
+      margin-right: unset;
+        position: relative;
+        padding-bottom: 60px;
+    }
+    body{
+        background-size: auto;
+    }
+    .deposit-btn-div > p {
+        margin-top: 25px;
+    }
+    .righty {
+        width: unset; 
+        float: unset; 
+         position: unset; 
+         padding-bottom: unset;
+    }
+    .deposit-btn-div svg {
+        margin-top: 11px;
+    }
+    .left-p {
+        font-size: 9px;
+    }
+    .lefty img, .righty img {
+       display: none;
+    }
+    .footer ul li img {
+        width: 22px;
+    }
+    .para-div {
+        width: 93%;
+        height: auto;
+    }
+    .btn-div {
+        right: 10px;
+    }
+    .btn-div img {
+        width: 127px;
+    }
+    .header img {
+        height: 60px;
+        width: 60px;
+    }
+    .container {
+        padding: 25px 10px;
+    }
+  }
+
+  @media screen and (max-width: 991px) and (min-width: 601px) {
+      .main-div{
+        min-height: 100vh;
+      }
+    .horse-img {
+        height: 285px;
+        position: absolute;
+        left: -44%;
+    }
+    .deposit-btn-div > p {
+        font-family: 'Game of Thrones';
+        font-size: 12px;
+    }
+    .main-heading-img {
+        width: 350px;
+    height: 34px;
+    padding-top: 53px;
+    }
+    .horse-txt-div {
+        position: relative;
+        height: 300px;
+    }
+    .left-p {
+        font-size: 9px;
+    }
+    .lefty img, .righty img {
+        width: 100px;
+    }
+    .footer ul li img {
+        width: 22px;
+    }
+    .para-div {
+        width: 93%;
+    }
+    .btn-div {
+        right: 10px;
+    }
+   
+    .container {
+        padding: 25px 10px;
+    }
+  }
+
+  @media screen and (max-width: 1200px) and (min-width: 991px){
+    .horse-img {
+        height: 344px;
+        left: -22%;
+        top: 15px;
+    }
+    .para-div {
+        width: 55%;
+        margin: 0 auto;
+        height: 436px;
+    }
+  }
