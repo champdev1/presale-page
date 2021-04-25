@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import axios from 'axios'
 function App() {
-    const liveTime = 1622487600000 // 1st JUNE IN EPOCH
+    const liveTime = 1621519200000 // 1st JUNE IN EPOCH
     const [days, setDays] = useState(0)
     const [hours, setHours] = useState(0)
     const [minutes, setMinutes] = useState(0)
