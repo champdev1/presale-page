@@ -94,7 +94,7 @@ function App() {
                            </span>
                            <span>
                                <span className="noGOTFont">
-                                    {tokenPriceInBNB}
+                                    50
                                </span>GOD
                            </span>
                        </p>
@@ -107,8 +107,8 @@ function App() {
                                 </span>
                                 <br/>
                                 <span className="noGOTFont">
-                                    50$ 
-                                </span>
+                                    {tokenPriceInBNB}
+                                </span>$
                             </p>
                         
                             <p className="priceTxt ryt-abs-wallet-txt ">
