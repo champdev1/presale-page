@@ -47,7 +47,7 @@ export default function Home() {
 	const fetchPrice = async () => {
 		try {
 			const priceListDataResult = await axios.get(
-				"https://api.pancakeswap.com/api/v1/price"
+				"https://api.pancakeswap.info/api/v2/tokens"
 			);
 
 			const wbnbPrice = priceListDataResult.data.prices["WBNB"];
