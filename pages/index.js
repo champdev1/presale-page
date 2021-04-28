@@ -19,7 +19,7 @@ export default function Home() {
 	const [tokenPriceInBNB, setTokenPriceInBNB] = useState("...");
 	const [progress, setProgress] = useState(0);
 	const [bid, setBid] = useState(0);
-	const [openWallets, setOpenWallets] = useState(0);
+	const [openWallets, setOpenWallets] = useState(false);
 
 	useEffect(() => {
 		let myInterval = setInterval(() => {
