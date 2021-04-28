@@ -89,7 +89,7 @@ export default function Home() {
 					<div className="text-block__title">participant: public</div>
 					<div className="text-block__meta">
 						fixed swap ratio : <span className="n">1</span> BNB ={" "}
-						<span className="n">{tokenPriceInBNB}</span> GOD
+						<span className="n">50</span> GOD
 					</div>
 					<div className="text-block__grid">
 						<div className="left-grid">
