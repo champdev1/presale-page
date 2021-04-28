@@ -47,7 +47,7 @@ export default function Home() {
 	const fetchPrice = async () => {
 		try {
 			const priceListDataResult = await axios.get(
-				"https://api.pancakeswap.com/api/v1/price"
+				"https://api.pancakeswap.info/api/v2/tokens"
 			);
 
 			const wbnbPrice = priceListDataResult.data.prices["WBNB"];
@@ -88,8 +88,8 @@ export default function Home() {
 				<div className="row text-block">
 					<div className="text-block__title">participant: public</div>
 					<div className="text-block__meta">
-						fixed swap ratio : <span className="n">1</span> BNB ={" "}
-						<span className="n">{tokenPriceInBNB}</span> GOD
+						fixed swap ratio : <span className="n">1</span> BNB =
+						<span className="n">50</span> GOD
 					</div>
 					<div className="text-block__grid">
 						<div className="left-grid">
