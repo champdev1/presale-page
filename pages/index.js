@@ -7,6 +7,9 @@ import Navbar from "../components/navbar";
 import Button from "../components/button";
 import Modal from "../components/modal";
 
+// Define max bid.
+const MAX_BID = 800;
+
 export default function Home() {
 	const liveTime = 1621519200000; // 1st JUNE IN EPOCH
 	const [days, setDays] = useState(0);
@@ -71,7 +74,7 @@ export default function Home() {
 			return false;
 		}
 
-		const percentage = value / 200 / 0.01;
+		const percentage = value / MAX_BID / 0.01;
 		setBid(value);
 		setProgress(percentage);
 	};
@@ -101,7 +104,7 @@ export default function Home() {
 						</div>
 					</div>
 					<div className="text-block__footer text-block__footer--centered">
-						auction progress: <span className="n">{bid} / 200</span> BNB
+						auction progress: <span className="n">{bid} / {MAX_BID}</span> BNB
 						<div
 							className="progress-bar"
 							style={{ width: `${progress}%` }}
