@@ -51,7 +51,7 @@ export default function Home() {
 			);
 
 			const wbnbPrice = priceListDataResult.data.prices["WBNB"];
-			setTokenPriceInBNB((wbnbPrice / 50).toFixed(2));
+			set TokenPriceInBNB((wbnbPrice / 50).toFixed(2));
 		} catch (error) {
 			console.log(error);
 		}
